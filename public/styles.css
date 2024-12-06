@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+   font-family: 'Arial', sans-serif; /* Clean, readable font */
+   background-color: #f9f9f9; /* Light background color */
+}
+
+#chat-container {
+   width: 80%;
+   margin: auto;
+}
+
+#upcoming-events {
+   margin-bottom: 20px;
+   font-weight: normal; /* Normal weight for readability */
+   border: 1px solid #007BFF; /* Border color */
+   padding: 10px; /* Padding for better appearance */
+   background-color: #f0f8ff; /* Light background color */
+}
+
+#chat-box {
+   border: 1px solid #ccc;
+   padding: 10px;
+   height: 300px;
+   overflow-y: scroll;
+   background-color: #eaeaea; /* Light gray background for chat box */
+}
+
+#user-input {
+   width: calc(100% - 100px);
+   height: 50px; /* Increased height */
+   font-size: 18px; /* Increased font size */
+}
+
+#send-button {
+   height: 50px; /* Increased button height */
+   font-size: 18px; /* Increased button font size */
+}
+
+/* Style for API status message */
+#api-status {
+   font-size: 16px; /* Font size for the status message */
+   color: #333; /* Text color */
+   margin-top: 20px; /* Space above the status message */
+}
+
+/* Additional styling for agent responses */
+.agent-response {
+   color: #555555; /* Dark gray color for agent responses */
+   font-weight: normal; /* Ensure text is not bold */
+}
+
+/* Style for paragraphs */
+p {
+   line-height: 1.6; /* Increase line height for better readability */
+}
+
+/* Style for suggestions list */
+ul {
+   list-style-type: none; /* Remove bullet points */
+   padding-left: 0; /* Remove left padding */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Bible Agent</title>
+</head>
+<body>
+   <div id="chat-container">
+       <h1>Welcome to Bible Agent!</h1>
+       <div id="upcoming-events" class="announcement-box"></div> <!-- Placeholder for dynamic events -->
+       <div id="chat-box"></div>
+       <input type="text" id="user-input" placeholder="請輸入您的問題..." style="width: calc(100% - 100px); height: 50px; font-size: 18px;">
+       <button id="send-button" style="height: 50px; font-size: 18px;">發送</button>
+       
+       <!-- Add this div for displaying API status -->
+       <div id="api-status" style="text-align: center; margin-top: 20px;"></div>
+
+       <script src="script.js"></script>
+   </div>
+</body>
+</html>
