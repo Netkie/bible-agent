@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware setup
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static('public')); // Serve static files from the 'public' directory
+app.use(express.static(__dirname)); // Serve static files from the root directory
 
 // Static array of upcoming Christian holidays for 2025
 const upcomingHolidays = [
